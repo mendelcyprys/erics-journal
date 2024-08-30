@@ -1,0 +1,3 @@
+When a C compiler compiles a switch statement, it may choose to implement some kind of binary search branching structure on the cases.
+Or use something called a jump table, depending on the sparseness of the cases, and perhaps other considerations.
+
