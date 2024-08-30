@@ -1,2 +1,41 @@
-Nothing here yet
+Some tmux commands
+
+split window vertical:
+tmux split-window -h
+C-b %
+
+split window horizontal:
+tmux split-window -v
+C-b "
+
+move between panes:
+C-b Arrow-Direction
+
+close pane:
+C-d
+
+create a new window:
+C-b c
+
+moving to a window:
+C-b window-number
+previous window:
+C-b p
+next window:
+C-b n
+toggle last active window:
+C-b l
+
+detach from session:
+C-b d
+
+list sessions:
+tmux list-sessions
+tmux ls
+
+create session:
+tmux new -s session-name
+
+attach a session:
+tmux attach -t session-name
 
